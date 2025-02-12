@@ -1,0 +1,92 @@
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 15vh;
+    background-color: #1F2937;
+}
+
+.footer-content .logo-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 20%;
+    height: 100%;
+}
+
+.footer-content .logo-footer .direitos {
+    text-align: center;
+    color: #fff;
+}
+.footer-content .logo-footer img {
+    width: 200px;
+    height: 100%;
+}
+
+.footer-content .redes-sociais {
+    width: 20%;
+    height: 100%;
+}
+
+.footer-content .redes-sociais ul {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-content .redes-sociais ul li {
+    margin: 0 15px 0 15px;
+}
+
+.footer-content .redes-sociais ul li a {
+    text-decoration: none;
+}
+
+.footer-content .redes-sociais ul li a i {
+    font-size: 25px;
+    color: #fff;
+    transition: 0.3s all;
+}
+
+.footer-content .redes-sociais ul li a i:hover {
+    color: #5e17eb;
+}
+
+.footer-content .links-uteis {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 20%;
+    height: 100%;
+}
+
+.footer-content .links-uteis p {
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+.footer-content .links-uteis p:hover {
+    color: #5e17eb;
+    text-decoration: underline;
+}
+
+.footer-content .links-uteis .politica {
+    margin-bottom: 10px;
+}
+
+.footer-content .info-contatos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: justify;
+    width: 20%;
+    height: 100%;
+    color: #fff;
+}
+
+.footer-content .info-contatos a {
+    color: #5e17eb;
+}

@@ -1,0 +1,109 @@
+body {
+    background-color: #D1D5DB;
+    box-sizing: border-box;
+    font-family: "DM Sans", serif;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    min-height: 5vh;
+    position: fixed;
+    transition: 0.6s all;
+}
+
+header.scrolled {
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 1px 15px 2px black;
+}
+
+.header-content .logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 33.33%;
+    height: 100%;
+    margin-left: 50px;
+}
+
+.header-content .logo img {
+    width: 150px;
+    object-fit: cover;
+    height: 100%;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.header-content .navbar-navegation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33.33%;
+    height: 100%;
+}
+
+.navbar-navegation .links-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-content .navbar-navegation ul{
+    display: flex;
+}
+
+.header-content .navbar-navegation ul li {
+    margin: 0 15px 0 15px;
+}
+
+.header-content .navbar-navegation ul li a {
+    font-size: 16px;
+    text-decoration: none;
+    border: none;
+    text-transform: none;
+    color: #fff;
+    transition: 0.3s all;
+}
+
+.header-content .navbar-navegation ul li a:hover {
+    font-size: 17px;
+    border-bottom: 4px solid #5e17eb;
+}
+
+.header-content .cad-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 33.33%;
+    height: 100%;
+    margin-right: 20px;
+}
+
+.header-content .cad-container .btn {
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 20px;
+    margin: 0 10px 0 10px;
+    transition: 0.5s all;
+}
+
+.header-content .cad-container .btn-register:hover {
+    transform: scale(1.1);
+    background-color: #bcbabe;
+}
+
+
+.header-content .cad-container .btn-enter:hover {
+    transform: scale(1.1);
+    background-color: #4210a5;
+}
+
+
+.header-content .cad-container .btn-enter {
+    background-color: #5e17eb;
+    color: #fff;
+}
+

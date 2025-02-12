@@ -1,0 +1,191 @@
+.main-content {
+  width: 100%;
+  min-height: 100vh;
+  scroll-snap-type: mandatory;
+}
+
+.main-content .home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  scroll-snap-align: start;
+}
+
+.main-content .home-container .background-container {
+  width: 100%;
+  height: 100vh;
+  background-image: url(src/img/background-1.jpg);
+  background-size: cover;
+  background-position: center;
+  z-index: -2;
+}
+
+.background-container .mascara-escura {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.home-container .text-welcome {
+  width: 500px;
+  height: 150px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  border-radius: 50px;
+  animation-name: border-animation-color;
+  animation-duration: 4s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes border-animation-color {
+  0% {
+    border-color: #5e17eb;
+  }
+  50% {
+    border-color: #fff;
+  }
+  100% {
+    border-color: #5e17eb;
+  }
+}
+
+.text-welcome .title-welcome {
+  color: #fff;
+  font-family: "Dancing Script", serif;
+  font-style: normal;
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: 5px;
+}
+
+/* section luxury vehicles */
+
+.luxury-vehicles {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 80vh;
+  margin-top: 20px;
+}
+
+.luxury-vehicles .description-vehicles {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 40%;
+  height: 100%;
+  text-align: center;
+  scroll-snap-align: start;
+}
+
+.description-vehicles .title {
+  font-size: 100px;
+  font-weight: 600;
+}
+
+.description-vehicles .description-text {
+  font-size: 30px;
+  font-weight: 200;
+}
+
+.luxury-vehicles .img-container-vehicles {
+  width: 40%;
+  height: 100%;
+  margin-left: 20px;
+}
+
+.luxury-vehicles .img-container-vehicles img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+/* section lojas fisicas */
+
+.physical-stores {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 80vh;
+  margin-top: 20px;
+}
+
+.physical-stores .img-container-stores {
+  width: 40%;
+  height: 100%;
+  margin-right: 20px;
+  scroll-snap-align: start;
+}
+
+.physical-stores .img-container-stores img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.physical-stores .description-stores {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 40%;
+  height: 100%;
+  text-align: center;
+}
+
+.physical-stores .description-stores .title {
+  font-size: 90px;
+  font-weight: 600;
+}
+
+.physical-stores .description-stores .description-text {
+  font-size: 30px;
+  font-weight: 200;
+}
+
+/* section sobre nos */
+
+.about-us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80vh;
+  margin: 20px 0;
+}
+
+.about-us .about-us-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  height: 100%;
+  text-align: center;
+  padding: 0 20px 0 20px;
+  border-radius: 20px;
+  background-color: #1f2937;
+  scroll-snap-align: start;
+}
+
+.about-us .about-us-container .title {
+  font-size: 90px;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.about-us .about-us-container .description-about-us {
+  font-size: 30px;
+  font-weight: 200;
+  color: #9ca3af;
+  background-color: #111827;
+  padding: 15px;
+  border-radius: 10px;
+}
