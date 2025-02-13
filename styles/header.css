@@ -19,6 +19,11 @@ header.scrolled {
     box-shadow: 0 1px 15px 2px black;
 }
 
+/* ira aparecer nos medias queries */
+.menu-hamburguer-container {
+    display: none;
+}
+
 .header-content .logo {
     display: flex;
     justify-content: flex-start;
@@ -107,3 +112,41 @@ header.scrolled {
     color: #fff;
 }
 
+/* Media queries */
+
+/* telas pequenos */
+
+@media only screen and (max-width:480px) {
+    .header-content .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+        width: 25%;
+    }
+
+    .header-content .menu-hamburguer-container {
+        display: flex;
+        width: 20%;
+        height: 100%;
+        justify-content: center;
+    }
+
+    .header-content .menu-hamburguer-container .fa-bars {
+        color: #fff;
+        font-size: 20px;
+    }
+
+    .header-content .navbar-navegation {
+        display: none;
+    }
+
+    .header-content .cad-container {
+        margin-right: 10px;
+    }
+
+    .header-content .cad-container .btn {
+        width: 130px;
+        margin: 0 5px 0 5px;
+    }
+}

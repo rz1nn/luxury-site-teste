@@ -1,7 +1,8 @@
 .main-content {
+  display: flex;
+  flex-direction: column;
   width: 100%;
   min-height: 100vh;
-  scroll-snap-type: mandatory;
 }
 
 .main-content .home-container {
@@ -9,7 +10,6 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  scroll-snap-align: start;
 }
 
 .main-content .home-container .background-container {
@@ -82,7 +82,7 @@
   width: 40%;
   height: 100%;
   text-align: center;
-  scroll-snap-align: start;
+  
 }
 
 .description-vehicles .title {
@@ -122,7 +122,6 @@
   width: 40%;
   height: 100%;
   margin-right: 20px;
-  scroll-snap-align: start;
 }
 
 .physical-stores .img-container-stores img {
@@ -172,7 +171,6 @@
   padding: 0 20px 0 20px;
   border-radius: 20px;
   background-color: #1f2937;
-  scroll-snap-align: start;
 }
 
 .about-us .about-us-container .title {
@@ -188,4 +186,26 @@
   background-color: #111827;
   padding: 15px;
   border-radius: 10px;
+}
+
+
+/*  Media queries */
+
+/* Telas pequenas */
+
+@media only screen and (max-width:480px) {
+
+  .main-content {
+    width: 100vw;
+  }
+
+  .home-container .text-welcome {
+    width: 300px;
+    height: 125px;
+  }
+
+  .home-container .text-welcome .title-welcome {
+    font-size: 35px;
+    letter-spacing: 7px;
+  }
 }
