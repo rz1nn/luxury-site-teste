@@ -115,9 +115,9 @@ header.scrolled {
 
 /* Media queries */
 
-/* telas pequenos */
+/* telas pequenos e medias*/
 
-@media only screen and (max-width:480px) {
+@media only screen and (max-width:767px) {
     .header-content .logo {
         justify-content: center;
         align-items: center;

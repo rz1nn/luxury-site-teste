@@ -191,9 +191,9 @@
 
 /*  Media queries */
 
-/* Telas pequenas */
+/* Telas pequenas e medias*/
 
-@media only screen and (max-width:480px) {
+@media only screen and (max-width:767px) {
 
   .home-container .text-welcome {
     width: 300px;
