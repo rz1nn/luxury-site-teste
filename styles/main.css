@@ -179,7 +179,7 @@
   color: #fff;
 }
 
-.about-us .about-us-container .description-about-us {
+.about-us .about-us-container .description-text {
   font-size: 30px;
   font-weight: 200;
   color: #9ca3af;
@@ -207,5 +207,75 @@
   .home-container .text-welcome .title-welcome {
     font-size: 35px;
     letter-spacing: 7px;
+  }
+
+  .luxury-vehicles {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .luxury-vehicles .description-vehicles {
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .luxury-vehicles .img-container-vehicles {
+    margin: 10px 0 10px 0;
+    width: 80%;
+  }
+
+  .luxury-vehicles .description-vehicles .title{
+    font-size: 70px;
+    margin-bottom: 15px;
+  }
+
+  .luxury-vehicles .description-vehicles .description-text {
+    font-size: 25px;
+  }
+
+  .physical-stores {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 105vh;
+  }
+
+  .physical-stores .description-stores {
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+  }
+
+  .physical-stores .description-stores .title {
+    font-size: 70px;
+    margin-bottom: 15px;
+  }
+
+  .physical-stores .description-stores .description-text {
+    font-size: 25px;
+  }
+
+  .physical-stores .img-container-stores {
+    width: 80%;
+    margin: 10px 0 10px 0;
+    order: 2;
+  }
+
+  .about-us {
+    flex-direction: column;
+    height: 80vh;
+  }
+
+  .about-us .about-us-container {
+    padding: 0 10px 0 10px;
+  }
+
+  .about-us .about-us-container .title {
+    font-size: 70px;
+  }
+
+  .about-us .about-us-container .description-text {
+    font-size: 25px;
   }
 }

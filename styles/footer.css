@@ -90,3 +90,40 @@
 .footer-content .info-contatos a {
     color: #5e17eb;
 }
+
+/* media queries */
+
+/* Telas pequenas */
+
+@media only screen and (max-width:480px) {
+    .footer-content {
+        min-height: 50vh;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .footer-content .logo-footer {
+        width: 50%;
+    }
+
+    .footer-content .redes-sociais {
+        width: 50%;
+    }
+
+    .footer-content .links-uteis {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .footer-content .links-uteis .politica {
+        margin: 0 20px 0 0;
+    }
+
+    .footer-content .links-uteis p {
+        border-bottom: 2px solid #5e17eb;
+    }
+
+    .footer-content .info-contatos {
+        width: 50%;
+    }
+}

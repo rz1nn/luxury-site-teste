@@ -2,6 +2,7 @@ body {
     background-color: #D1D5DB;
     box-sizing: border-box;
     font-family: "DM Sans", serif;
+    touch-action: manipulation;
 }
 
 .header-content {
@@ -118,11 +119,14 @@ header.scrolled {
 
 @media only screen and (max-width:480px) {
     .header-content .logo {
-        display: flex;
         justify-content: center;
         align-items: center;
         margin-left: 0;
         width: 25%;
+    }
+
+    .header-content .logo img {
+        width: 120px;
     }
 
     .header-content .menu-hamburguer-container {
