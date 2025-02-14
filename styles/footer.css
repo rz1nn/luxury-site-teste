@@ -5,6 +5,7 @@
     width: 100%;
     min-height: 15vh;
     background-color: #1F2937;
+    box-shadow: 0 0 15px 6px #5e17eb;
 }
 
 .footer-content .logo-footer {
