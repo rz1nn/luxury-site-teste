@@ -93,13 +93,51 @@
 
 /* media queries */
 
-/* Telas pequenas e medias*/
+/* telas bem nisuculas */
 
-@media only screen and (max-width:767px) {
+@media only screen and (min-width:320px) and (max-width:450px) {
     .footer-content {
         min-height: 50vh;
         flex-direction: column;
-        flex-wrap: wrap;
+    }
+
+    .footer-content .logo-footer {
+        width: 50%;
+    }
+
+    .footer-content .logo-footer img {
+        width: 150px;
+    }
+
+    .footer-content .redes-sociais {
+        width: 50%;
+    }
+
+    .footer-content .links-uteis {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .footer-content .links-uteis .politica {
+        margin: 0 20px 0 0;
+    }
+
+    .footer-content .links-uteis p {
+        border-bottom: 2px solid #5e17eb;
+    }
+
+    .footer-content .info-contatos {
+        width: 50%;
+    }
+}
+
+
+/* Telas pequenas e medias*/
+
+@media only screen and (min-width:451px) and (max-width:1024px) {
+    .footer-content {
+        min-height: 50vh;
+        flex-direction: column;
     }
 
     .footer-content .logo-footer {

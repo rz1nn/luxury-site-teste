@@ -191,9 +191,95 @@
 
 /*  Media queries */
 
+/* telas bem minusculas */
+
+@media only screen and (min-width:320px) and (max-width:450px) {
+  .home-container .text-welcome {
+    width: 250px;
+    height: 120px;
+  }
+
+  .home-container .text-welcome .title-welcome {
+    font-size: 35px;
+    letter-spacing: 7px;
+  }
+
+  .luxury-vehicles {
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+  }
+
+  .luxury-vehicles .description-vehicles {
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .luxury-vehicles .img-container-vehicles {
+    margin: 10px 0 10px 0;
+    width: 80%;
+  }
+
+  .luxury-vehicles .description-vehicles .title{
+    font-size: 50px;
+    margin-bottom: 15px;
+  }
+
+  .luxury-vehicles .description-vehicles .description-text {
+    font-size: 20px;
+  }
+
+  .physical-stores {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+  }
+
+  .physical-stores .description-stores {
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+  }
+
+  .physical-stores .description-stores .title {
+    font-size: 50px;
+    margin-bottom: 15px;
+  }
+
+  .physical-stores .description-stores .description-text {
+    font-size: 20px;
+  }
+
+  .physical-stores .img-container-stores {
+    width: 80%;
+    margin: 10px 0 10px 0;
+    order: 2;
+  }
+
+  .about-us {
+    flex-direction: column;
+    height: 80vh;
+  }
+
+  .about-us .about-us-container {
+    padding: 0 10px 0 10px;
+  }
+
+  .about-us .about-us-container .title {
+    font-size: 50px;
+  }
+
+  .about-us .about-us-container .description-text {
+    font-size: 20px;
+    padding: 10px;
+  }
+}
+
 /* Telas pequenas e medias*/
 
-@media only screen and (max-width:767px) {
+@media only screen and (min-width:451px) and (max-width:1024px) {
 
   .home-container .text-welcome {
     width: 300px;
@@ -235,7 +321,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    height: 125vh;
+    height: 155vh;
   }
 
   .physical-stores .description-stores {
@@ -275,5 +361,14 @@
   .about-us .about-us-container .description-text {
     font-size: 25px;
     padding: 10px;
+  }
+}
+
+/* telas bem grandes */
+
+@media only screen and (min-width:1025px) and (max-width:1050px) {
+  .home-container .text-welcome {
+    width: 400px;
+    height: 150px;
   }
 }
